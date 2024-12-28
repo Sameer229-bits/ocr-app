@@ -3,7 +3,7 @@ import os
 from backend import extract_text  # Import the backend function
 
 # Streamlit app
-st.title("Azure OCR App using Document Intelligence")
+st.title("DocuVision")
 st.write("Upload a document (PDF/Image) to extract text using Azure.")
 
 uploaded_file = st.file_uploader("Upload your file", type=["pdf", "jpg", "png"])
